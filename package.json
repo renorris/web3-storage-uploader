@@ -1,0 +1,16 @@
+{
+  "name": "web3-uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ipfs-car": "^0.6.2",
+    "web3.storage": "^3.5.6"
+  }
+}
