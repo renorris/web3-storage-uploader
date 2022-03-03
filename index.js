@@ -20,7 +20,7 @@ const fileSizeMB = (fs.statSync(pathToFile).size / (1024*1024)).toFixed(2);
 console.log(`Temporary file will use ~${fileSizeMB} MB of storage`)
 
 console.log("Generating CAR file for upload (This might take awhile)...")
-const tempCarPath = `${process.cwd()}/temp.car`
+const tempCarPath = `${process.cwd()}/${filename}-temp.car`
 await packToFs({
   input: pathToFile,
   output: tempCarPath,
